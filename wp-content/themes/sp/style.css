@@ -505,6 +505,9 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.site-header{
+	display: flex;
+}
 .main-navigation {
 	clear: both;
 	display: block;
@@ -555,6 +558,7 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding : 1em;
 }
 
 /* Small menu. */
