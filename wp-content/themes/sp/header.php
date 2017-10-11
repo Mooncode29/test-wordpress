@@ -52,5 +52,6 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+	<hr>
 
 	<div id="content" class="site-content">
