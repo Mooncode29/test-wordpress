@@ -51,6 +51,13 @@
 				) );
 			?>
 		</nav><!-- #site-navigation -->
+		<?php
+			if(has_post_thumbnail()) : ?>
+			<div>
+				<?php the_post_thumbnail(); ?>
+			</div>
+		<?php endif;?>
+
 	</header><!-- #masthead -->
 	<hr>
 
